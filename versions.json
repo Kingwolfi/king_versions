@@ -1,107 +1,309 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T10:12:28Z",
+  "generatedAt": "2026-09-10T18:12:18Z",
   "source": "local_fxmanifest",
   "message": {
-    "enabled": false
+    "enabled": true,
+    "title": {
+      "de": "Schön, dass du dabei bist!",
+      "en": "Great to have you here!",
+      "fr": "Ravis de te retrouver ici !"
+    },
+    "text": {
+      "de": "Willkommen im King-Dashboard! Diese Testnachricht zeigt, wie wir dich künftig über Neuigkeiten und Updates informieren. Danke fürs Ausprobieren und viel Spaß mit den King-Ressourcen!",
+      "en": "Welcome to the King dashboard! This test message shows how we will keep you informed about news and updates. Thanks for trying it out, and have fun with the King resources!",
+      "fr": "Bienvenue dans le tableau de bord King ! Ce message de test montre comment nous te tiendrons au courant des nouveautés et des mises à jour. Merci de participer au test et amuse-toi bien avec les ressources King !"
+    }
   },
   "resources": {
-    "king_access": "1.0.10",
-    "king_admin": "1.0.15",
-    "king_arcade": "1.0.3",
-    "king_bag": "1.0.1",
-    "king_banking": "1.0.16",
-    "king_billing": "1.0.11",
-    "king_blackmarket": "1.0.1",
-    "king_buffs": "1.0.4",
-    "king_cablecar": "1.0.2",
-    "king_cards": "1.0.1",
-    "king_cloth_manager": "1.0.1",
-    "king_clothing": "1.0.2",
-    "king_combatmode": "1.0.3",
-    "king_consumables": "1.1.8",
-    "king_core": "1.1.32",
-    "king_core_test": "1.1.23",
-    "king_crafting": "1.0.8",
-    "king_dishwasher": "1.0.1",
-    "king_dispatch_lb_phone": "1.0.2",
-    "king_dj_stream": "1.0.2",
-    "king_documents": "1.0.19",
-    "king_easter": "1.0.1",
-    "king_energy": "1.0.1",
-    "king_entitysync": "2.0.3",
-    "king_entitysync_test": "2.0.2",
-    "king_factory": "1.0.4",
-    "king_farming": "1.0.10",
-    "king_fire": "1.0.2",
-    "king_garages": "1.0.11",
-    "king_gathering": "1.0.5",
-    "king_government": "1.0.2",
-    "king_graffiti": "1.0.5",
-    "king_housing": "1.0.8",
-    "king_immigration_office": "1.0.8",
-    "king_insurance": "1.0.4",
-    "king_keys": "1.0.11",
-    "king_keys_lb_phone": "1.0.4",
-    "king_lb_payphone": "1.0.1",
-    "king_licence_manager": "1.0.1",
-    "king_loadingscreen": "1.0.3",
-    "king_loot": "1.0.6",
-    "king_lost_and_found": "1.0.2",
-    "king_lucky_game": "1.0.3",
-    "king_manager": "1.0.3",
-    "king_map_manager": "1.0.4",
-    "king_market": "1.0.3",
-    "king_media_network": "1.0.12",
-    "king_media_upload": "0.1.1",
-    "king_money": "1.0.2",
-    "king_mugshot": "1.0.2",
-    "king_npc": "1.0.6",
-    "king_order": "1.0.7",
-    "king_parking": "1.0.2",
-    "king_paycheck": "1.0.1",
-    "king_ped_costume": "1.0.1",
-    "king_pets": "1.0.6",
-    "king_pets_chicken": "1.0.0",
-    "king_phone_charger": "1.0.1",
-    "king_pick_a_number": "1.0.1",
-    "king_pocket_vehicles": "1.0.1",
-    "king_quest": "1.0.1",
-    "king_racing": "1.0.1",
-    "king_radiation": "1.0.2",
-    "king_ragdoll": "1.0.1",
-    "king_registration_lb_tablet": "1.0.8",
-    "king_scratchcard": "1.0.1",
-    "king_self_storage": "1.0.5",
-    "king_shop": "1.0.20",
-    "king_sit": "1.0.3",
-    "king_skills": "1.0.10",
+    "king_access": {
+      "version": "1.0.11"
+    },
+    "king_admin": {
+      "version": "1.0.16"
+    },
+    "king_arcade": {
+      "version": "1.0.4"
+    },
+    "king_bag": {
+      "version": "1.0.2"
+    },
+    "king_banking": {
+      "version": "1.0.17"
+    },
+    "king_billing": {
+      "version": "1.0.12"
+    },
+    "king_blackmarket": {
+      "version": "1.0.2"
+    },
+    "king_buffs": {
+      "version": "1.0.5"
+    },
+    "king_cablecar": {
+      "version": "1.0.3"
+    },
+    "king_cards": {
+      "version": "1.0.2"
+    },
+    "king_cloth_manager": {
+      "version": "1.0.2"
+    },
+    "king_clothing": {
+      "version": "1.0.3"
+    },
+    "king_combatmode": {
+      "version": "1.0.4"
+    },
+    "king_consumables": {
+      "version": "1.1.9"
+    },
+    "king_core": {
+      "version": "1.1.33"
+    },
+    "king_core_test": {
+      "version": "1.1.24"
+    },
+    "king_crafting": {
+      "version": "1.0.9"
+    },
+    "king_dishwasher": {
+      "version": "1.0.2"
+    },
+    "king_dispatch_lb_phone": {
+      "version": "1.0.3"
+    },
+    "king_dj_stream": {
+      "version": "1.0.3"
+    },
+    "king_documents": {
+      "version": "1.0.20"
+    },
+    "king_easter": {
+      "version": "1.0.2"
+    },
+    "king_energy": {
+      "version": "1.0.2"
+    },
+    "king_entitysync": {
+      "version": "2.0.4"
+    },
+    "king_entitysync_test": {
+      "version": "2.0.3"
+    },
+    "king_factory": {
+      "version": "1.0.5"
+    },
+    "king_farming": {
+      "version": "1.0.11"
+    },
+    "king_fire": {
+      "version": "1.0.3"
+    },
+    "king_garages": {
+      "version": "1.0.12"
+    },
+    "king_gathering": {
+      "version": "1.0.6"
+    },
+    "king_government": {
+      "version": "1.0.3"
+    },
+    "king_graffiti": {
+      "version": "1.0.6"
+    },
+    "king_housing": {
+      "version": "1.0.9"
+    },
+    "king_immigration_office": {
+      "version": "1.0.9"
+    },
+    "king_insurance": {
+      "version": "1.0.5"
+    },
+    "king_keys": {
+      "version": "1.0.12"
+    },
+    "king_keys_lb_phone": {
+      "version": "1.0.5"
+    },
+    "king_lb_payphone": {
+      "version": "1.0.2"
+    },
+    "king_licence_manager": {
+      "version": "1.0.2"
+    },
+    "king_loadingscreen": {
+      "version": "1.0.4"
+    },
+    "king_loot": {
+      "version": "1.0.7"
+    },
+    "king_lost_and_found": {
+      "version": "1.0.3"
+    },
+    "king_lucky_game": {
+      "version": "1.0.4"
+    },
+    "king_manager": {
+      "version": "1.0.4"
+    },
+    "king_map_manager": {
+      "version": "1.0.5"
+    },
+    "king_market": {
+      "version": "1.0.4"
+    },
+    "king_media_network": {
+      "version": "1.0.13"
+    },
+    "king_media_upload": {
+      "version": "0.1.2"
+    },
+    "king_money": {
+      "version": "1.0.3"
+    },
+    "king_mugshot": {
+      "version": "1.0.3"
+    },
+    "king_npc": {
+      "version": "1.0.7"
+    },
+    "king_order": {
+      "version": "1.0.8"
+    },
+    "king_parking": {
+      "version": "1.0.3"
+    },
+    "king_paycheck": {
+      "version": "1.0.2"
+    },
+    "king_ped_costume": {
+      "version": "1.0.2"
+    },
+    "king_pets": {
+      "version": "1.0.7"
+    },
+    "king_pets_chicken": {
+      "version": "1.0.1"
+    },
+    "king_phone_charger": {
+      "version": "1.0.2"
+    },
+    "king_pick_a_number": {
+      "version": "1.0.2"
+    },
+    "king_pocket_vehicles": {
+      "version": "1.0.2"
+    },
+    "king_quest": {
+      "version": "1.0.2"
+    },
+    "king_racing": {
+      "version": "1.0.2"
+    },
+    "king_radiation": {
+      "version": "1.0.3"
+    },
+    "king_ragdoll": {
+      "version": "1.0.2"
+    },
+    "king_registration_lb_tablet": {
+      "version": "1.0.9"
+    },
+    "king_scratchcard": {
+      "version": "1.0.2"
+    },
+    "king_self_storage": {
+      "version": "1.0.6"
+    },
+    "king_shop": {
+      "version": "1.0.21"
+    },
+    "king_sit": {
+      "version": "1.0.4"
+    },
+    "king_skills": {
+      "version": "1.0.11"
+    },
     "king_skin_rescue": "1.0.0",
-    "king_speak": "1.0.3",
-    "king_speedtraps": "1.0.9",
-    "king_speedtraps_detector_lb_phone": "1.0.3",
-    "king_speedtraps_props": "1.0.0",
-    "king_spikestrips": "1.0.1",
-    "king_starter_items": "1.0.8",
-    "king_target": "1.0.1",
-    "king_tattoos": "1.0.1",
-    "king_tattoos_stream": "1.0.1",
-    "king_tower": "1.3.1",
-    "king_tts": "1.0.3",
-    "king_ui_template": "1.0.1",
-    "king_used_vehicles": "1.0.41",
-    "king_user_menu": "1.0.1",
-    "king_vehicle_customs": "1.0.2",
-    "king_vehicle_manager": "1.0.1",
-    "king_vehicle_mods": "1.0.1",
-    "king_vehicle_registration": "1.0.7",
-    "king_vehicle_road_damage": "1.0.1",
-    "king_vehicle_saver": "1.0.2",
-    "king_vending_machine": "1.0.8",
-    "king_voicemute": "1.0.1",
-    "king_weapons": "1.0.2",
-    "king_weather": "1.0.2",
-    "king_worldobjects": "1.0.20",
-    "ls-inventoryhud": "2.1.10"
+    "king_speak": {
+      "version": "1.0.4"
+    },
+    "king_speedtraps": {
+      "version": "1.0.10"
+    },
+    "king_speedtraps_detector_lb_phone": {
+      "version": "1.0.4"
+    },
+    "king_speedtraps_props": {
+      "version": "1.0.1"
+    },
+    "king_spikestrips": {
+      "version": "1.0.2"
+    },
+    "king_starter_items": {
+      "version": "1.0.9"
+    },
+    "king_target": {
+      "version": "1.0.2"
+    },
+    "king_tattoos": {
+      "version": "1.0.2"
+    },
+    "king_tattoos_stream": {
+      "version": "1.0.2"
+    },
+    "king_tower": {
+      "version": "1.3.2"
+    },
+    "king_tts": {
+      "version": "1.0.4"
+    },
+    "king_ui_template": {
+      "version": "1.0.2"
+    },
+    "king_used_vehicles": {
+      "version": "1.0.42"
+    },
+    "king_user_menu": {
+      "version": "1.0.2"
+    },
+    "king_vehicle_customs": {
+      "version": "1.0.3"
+    },
+    "king_vehicle_manager": {
+      "version": "1.0.2"
+    },
+    "king_vehicle_mods": {
+      "version": "1.0.2"
+    },
+    "king_vehicle_registration": {
+      "version": "1.0.8"
+    },
+    "king_vehicle_road_damage": {
+      "version": "1.0.2"
+    },
+    "king_vehicle_saver": {
+      "version": "1.0.3"
+    },
+    "king_vending_machine": {
+      "version": "1.0.9"
+    },
+    "king_voicemute": {
+      "version": "1.0.2"
+    },
+    "king_weapons": {
+      "version": "1.0.3"
+    },
+    "king_weather": {
+      "version": "1.0.3"
+    },
+    "king_worldobjects": {
+      "version": "1.0.21"
+    },
+    "ls-inventoryhud": {
+      "version": "2.1.11"
+    }
   }
 }
