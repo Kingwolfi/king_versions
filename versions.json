@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T18:12:18Z",
+  "generatedAt": "2026-09-11T09:42:58Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -29,7 +29,13 @@
       "version": "1.0.2"
     },
     "king_banking": {
-      "version": "1.0.17"
+      "version": "1.0.18",
+      "importance": "important",
+      "notes": [
+        "Neuer Export RouteFrameworkBankMoney für die schlanke Framework-Anbindung über king_core und den Abgleich des ursprünglichen Spielerobjekts.",
+        "Gemeinsam mit king_core 1.1.34 und dem aktualisierten Framework-Hook installieren; anschließend den Server vollständig neu starten.",
+        "Eine bereits abgeschlossene Buchung bleibt erfolgreich, wenn das Zurückschreiben des gespiegelten Kontostands fehlschlägt."
+      ]
     },
     "king_billing": {
       "version": "1.0.12"
@@ -59,7 +65,13 @@
       "version": "1.1.9"
     },
     "king_core": {
-      "version": "1.1.33"
+      "version": "1.1.34",
+      "importance": "important",
+      "notes": [
+        "Framework-Bankbuchungen für QBCore, Qbox, ESX und Custom zentral angebunden; einmalige Kontostandsprojektionen verhindern erneute Buchungen beim Abgleich.",
+        "Gemeinsam mit king_banking 1.0.18 aktualisieren. Alten Framework-Hook durch die drei Exportaufrufe laut Einbauanleitung ersetzen; keine Manifestimporte erforderlich.",
+        "Config.Bank.Provider muss king_banking sein und FrameworkBankHook aktiviert sein. Update beim vollständigen Serverstart laden."
+      ]
     },
     "king_core_test": {
       "version": "1.1.24"
