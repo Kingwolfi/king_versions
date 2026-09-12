@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T09:42:58Z",
+  "generatedAt": "2026-09-12T13:58:31Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -17,10 +17,10 @@
   },
   "resources": {
     "king_access": {
-      "version": "1.0.11"
+      "version": "1.0.12"
     },
     "king_admin": {
-      "version": "1.0.16"
+      "version": "1.0.17"
     },
     "king_arcade": {
       "version": "1.0.4"
@@ -50,7 +50,7 @@
       "version": "1.0.3"
     },
     "king_cards": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_cloth_manager": {
       "version": "1.0.2"
@@ -65,13 +65,7 @@
       "version": "1.1.9"
     },
     "king_core": {
-      "version": "1.1.34",
-      "importance": "important",
-      "notes": [
-        "Framework-Bankbuchungen für QBCore, Qbox, ESX und Custom zentral angebunden; einmalige Kontostandsprojektionen verhindern erneute Buchungen beim Abgleich.",
-        "Gemeinsam mit king_banking 1.0.18 aktualisieren. Alten Framework-Hook durch die drei Exportaufrufe laut Einbauanleitung ersetzen; keine Manifestimporte erforderlich.",
-        "Config.Bank.Provider muss king_banking sein und FrameworkBankHook aktiviert sein. Update beim vollständigen Serverstart laden."
-      ]
+      "version": "1.1.35"
     },
     "king_core_test": {
       "version": "1.1.24"
@@ -89,7 +83,7 @@
       "version": "1.0.3"
     },
     "king_documents": {
-      "version": "1.0.20"
+      "version": "1.0.21"
     },
     "king_easter": {
       "version": "1.0.2"
@@ -113,16 +107,16 @@
       "version": "1.0.3"
     },
     "king_garages": {
-      "version": "1.0.12"
+      "version": "1.0.13"
     },
     "king_gathering": {
       "version": "1.0.6"
     },
     "king_government": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_graffiti": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_housing": {
       "version": "1.0.9"
@@ -167,7 +161,7 @@
       "version": "1.0.4"
     },
     "king_media_network": {
-      "version": "1.0.13"
+      "version": "1.0.14"
     },
     "king_media_upload": {
       "version": "0.1.2"
@@ -185,7 +179,7 @@
       "version": "1.0.8"
     },
     "king_parking": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_paycheck": {
       "version": "1.0.2"
@@ -194,7 +188,7 @@
       "version": "1.0.2"
     },
     "king_pets": {
-      "version": "1.0.7"
+      "version": "1.0.8"
     },
     "king_pets_chicken": {
       "version": "1.0.1"
@@ -212,7 +206,7 @@
       "version": "1.0.2"
     },
     "king_racing": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_radiation": {
       "version": "1.0.3"
@@ -221,22 +215,22 @@
       "version": "1.0.2"
     },
     "king_registration_lb_tablet": {
-      "version": "1.0.9"
+      "version": "1.0.10"
     },
     "king_scratchcard": {
       "version": "1.0.2"
     },
     "king_self_storage": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_shop": {
-      "version": "1.0.21"
+      "version": "1.0.22"
     },
     "king_sit": {
       "version": "1.0.4"
     },
     "king_skills": {
-      "version": "1.0.11"
+      "version": "1.0.12"
     },
     "king_skin_rescue": "1.0.0",
     "king_speak": {
@@ -261,7 +255,7 @@
       "version": "1.0.2"
     },
     "king_tattoos": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_tattoos_stream": {
       "version": "1.0.2"
@@ -276,13 +270,13 @@
       "version": "1.0.2"
     },
     "king_used_vehicles": {
-      "version": "1.0.42"
+      "version": "1.0.43"
     },
     "king_user_menu": {
       "version": "1.0.2"
     },
     "king_vehicle_customs": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_vehicle_manager": {
       "version": "1.0.2"
@@ -315,7 +309,7 @@
       "version": "1.0.21"
     },
     "ls-inventoryhud": {
-      "version": "2.1.11"
+      "version": "2.1.13"
     }
   }
 }
