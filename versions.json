@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T09:37:24Z",
+  "generatedAt": "2026-09-15T13:02:23Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -65,7 +65,7 @@
       "version": "1.1.9"
     },
     "king_core": {
-      "version": "1.1.36"
+      "version": "1.1.37"
     },
     "king_core_test": {
       "version": "1.1.24"
@@ -270,7 +270,7 @@
       "version": "1.0.2"
     },
     "king_used_vehicles": {
-      "version": "1.0.45"
+      "version": "1.0.46"
     },
     "king_user_menu": {
       "version": "1.0.2"
