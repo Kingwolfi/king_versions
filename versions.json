@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T13:02:23Z",
+  "generatedAt": "2026-09-15T14:14:11Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -309,7 +309,7 @@
       "version": "1.0.21"
     },
     "ls-inventoryhud": {
-      "version": "2.1.14"
+      "version": "2.1.15"
     }
   }
 }
