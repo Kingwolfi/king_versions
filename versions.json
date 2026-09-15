@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T14:14:11Z",
+  "generatedAt": "2026-09-15T17:45:06Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -110,7 +110,7 @@
       "version": "1.0.13"
     },
     "king_gathering": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_government": {
       "version": "1.0.4"
