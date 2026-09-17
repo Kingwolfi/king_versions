@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T18:18:11Z",
+  "generatedAt": "2026-09-17T18:30:39Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -20,7 +20,7 @@
       "version": "1.0.12"
     },
     "king_admin": {
-      "version": "1.0.19"
+      "version": "1.0.20"
     },
     "king_arcade": {
       "version": "1.0.4"
