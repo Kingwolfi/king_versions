@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T07:48:50Z",
+  "generatedAt": "2026-09-18T18:26:42Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -206,6 +206,9 @@
     },
     "king_pocket_vehicles": {
       "version": "1.0.2"
+    },
+    "king_polyzone": {
+      "version": "1.0.1"
     },
     "king_quest": {
       "version": "1.0.2"
