@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T07:40:15Z",
+  "generatedAt": "2026-09-18T07:48:50Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -140,7 +140,7 @@
       "version": "1.0.2"
     },
     "king_loadingscreen": {
-      "version": "1.0.6",
+      "version": "1.0.5",
       "importance": "optional",
       "notes": [
         "Adds a music-reactive starflight, four-channel tracker, and master oscilloscope.",
