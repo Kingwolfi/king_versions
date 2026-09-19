@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T18:26:42Z",
+  "generatedAt": "2026-09-19T10:15:20Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -140,12 +140,7 @@
       "version": "1.0.2"
     },
     "king_loadingscreen": {
-      "version": "1.0.5",
-      "importance": "optional",
-      "notes": [
-        "Adds a music-reactive starflight, four-channel tracker, and master oscilloscope.",
-        "Adds Winziger Garten and randomized playback with history-aware navigation."
-      ]
+      "version": "1.0.6"
     },
     "king_loot": {
       "version": "1.0.7"
@@ -278,7 +273,7 @@
       "version": "1.0.2"
     },
     "king_used_vehicles": {
-      "version": "1.0.46"
+      "version": "1.0.47"
     },
     "king_user_menu": {
       "version": "1.0.2"
