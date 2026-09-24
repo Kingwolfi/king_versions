@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T10:15:20Z",
+  "generatedAt": "2026-09-24T13:06:11Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -171,6 +171,9 @@
     },
     "king_mugshot": {
       "version": "1.0.3"
+    },
+    "king_notebook": {
+      "version": "1.0.0"
     },
     "king_npc": {
       "version": "1.0.7"
