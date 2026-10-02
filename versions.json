@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T19:10:57Z",
+  "generatedAt": "2026-10-02T13:31:45Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -89,7 +89,7 @@
       "version": "1.0.2"
     },
     "king_elevator": {
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "king_energy": {
       "version": "1.0.2"
