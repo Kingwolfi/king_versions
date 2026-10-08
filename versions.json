@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T10:10:08Z",
+  "generatedAt": "2026-10-08T18:19:10Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -135,7 +135,7 @@
       "version": "1.0.5"
     },
     "king_keys": {
-      "version": "1.0.13"
+      "version": "1.0.14"
     },
     "king_keys_lb_phone": {
       "version": "1.0.5"
