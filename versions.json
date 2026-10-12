@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:55:26Z",
+  "generatedAt": "2026-10-12T18:14:00Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -237,7 +237,11 @@
       "version": "1.0.2"
     },
     "king_polyzone": {
-      "version": "1.0.1"
+      "version": "1.0.2",
+      "importance": "optional",
+      "notes": [
+        "Fügt dauerhaft gespeicherte Sperrzonen hinzu."
+      ]
     },
     "king_quest": {
       "version": "1.0.2"
@@ -267,7 +271,12 @@
       "version": "1.0.7"
     },
     "king_shop": {
-      "version": "1.0.22"
+      "version": "1.0.23",
+      "importance": "optional",
+      "notes": [
+        "Datenschutzgerechte Diagnose für Target-Auswahl, Server-Snapshots, Client-Versand und NUI-Empfang.",
+        "Der Shop lädt den Sprachkatalog beim Öffnen erneut, wenn ein vorheriger Ladeversuch fehlgeschlagen ist."
+      ]
     },
     "king_sit": {
       "version": "1.0.4"
