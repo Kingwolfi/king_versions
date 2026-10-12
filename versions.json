@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T19:52:55Z",
+  "generatedAt": "2026-10-12T17:33:27Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -65,7 +65,13 @@
       "version": "1.1.9"
     },
     "king_core": {
-      "version": "1.1.40"
+      "version": "1.1.41",
+      "importance": "important",
+      "notes": [
+        "Adds king.log channels with independent console, database and Discord targets, plus searchable logs with live updates in /kingcore.",
+        "Update king_core before king_garages 1.0.15 and restart the entire server. Do not restart king_core in isolation.",
+        "Retention is disabled by default. License and Discord identifiers remain opt-in for new logs."
+      ]
     },
     "king_core_test": {
       "version": "1.1.24"
@@ -114,7 +120,13 @@
       "version": "1.0.3"
     },
     "king_garages": {
-      "version": "1.0.14"
+      "version": "1.0.15",
+      "importance": "optional",
+      "notes": [
+        "Migrates garage audits to king.log with structured actor and before/after data.",
+        "Requires king_core 1.1.41 or newer. Update Core first and restart the entire server.",
+        "Existing audit switches and the default Discord webhook remain supported; console and database logging work without a webhook."
+      ]
     },
     "king_gathering": {
       "version": "1.0.8"
