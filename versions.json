@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T17:33:27Z",
+  "generatedAt": "2026-10-12T17:37:57Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -144,7 +144,12 @@
       "version": "1.0.9"
     },
     "king_insurance": {
-      "version": "1.0.5"
+      "version": "1.0.6",
+      "importance": "optional",
+      "notes": [
+        "Die LB-Installationsbridge erhält kompatible Versicherungsfelder für die neue Registration-/Framework-MDT-Abfrage und fügt sie nach einem Registration-Neustart wieder ein.",
+        "Beim Update auf king_registration_lb_tablet 1.0.11 auch die aktualisierte insurance_mdt_queries.lua aus install/lb-tablet übernehmen."
+      ]
     },
     "king_keys": {
       "version": "1.0.14"
@@ -240,7 +245,13 @@
       "version": "1.0.2"
     },
     "king_registration_lb_tablet": {
-      "version": "1.0.10"
+      "version": "1.0.11",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core 1.1.41 oder neuer. Zentrale Logs für Registrierung und Aktenfreigaben sind standardmäßig in der Core-Datenbank aktiv; Discord bleibt separat konfigurierbar.",
+        "Die aktualisierten LB-Bridge- und Aktenfreigabe-Dateien aus install/lb-tablet übernehmen und den gesamten Server neu starten. Die neue MDT-Abfrage benötigt MariaDB 10.2+ oder MySQL 8.0+.",
+        "Behebt die Spieleingabe beim Freigabegrund sowie serverseitige Identitäts-/Bearbeitungsprüfung, endgültiges Löschen und MDT-Suchfilter. Enthält ein neues Tablet-App-Icon mit transparentem Außenrand."
+      ]
     },
     "king_scratchcard": {
       "version": "1.0.2"
