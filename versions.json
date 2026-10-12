@@ -150,11 +150,12 @@
       "version": "1.0.9"
     },
     "king_insurance": {
-      "version": "1.0.6",
-      "importance": "optional",
+      "version": "1.0.7",
+      "importance": "important",
       "notes": [
-        "Die LB-Installationsbridge erhält kompatible Versicherungsfelder für die neue Registration-/Framework-MDT-Abfrage und fügt sie nach einem Registration-Neustart wieder ein.",
-        "Beim Update auf king_registration_lb_tablet 1.0.11 auch die aktualisierte insurance_mdt_queries.lua aus install/lb-tablet übernehmen."
+        "Core-Logging für Verträge, Beiträge, Kündigungen, Verlängerungen und Besitzerwechsel; Konsole und king_core_logs standardmäßig aktiv.",
+        "king_core ab 1.1.41 erforderlich. Nach dem Update den gesamten Server neu starten.",
+        "Discord ist optional und wird je Channel ausschließlich in server/config.lua konfiguriert."
       ]
     },
     "king_keys": {
