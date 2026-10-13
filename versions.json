@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T18:14:00Z",
+  "generatedAt": "2026-10-13T07:22:28Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -361,7 +361,13 @@
       "version": "1.0.21"
     },
     "ls-inventoryhud": {
-      "version": "2.1.16"
+      "version": "2.1.17",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core 1.1.41 oder neuer. Nach dem Update den gesamten Server neu starten.",
+        "Behebt Gürtel-/Rucksack-Verwechslungen, unbeabsichtigte Hutwechsel und verlorene Texturänderungen beim Kleidungssync.",
+        "Inventarlogs laufen über king.log; die Ziele werden serverseitig unter Config.LogChannels konfiguriert."
+      ]
     }
   }
 }
