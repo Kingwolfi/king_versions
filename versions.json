@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T16:12:29Z",
+  "generatedAt": "2026-10-15T17:56:50Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -67,7 +67,7 @@
       "version": "1.0.4"
     },
     "king_consumables": {
-      "version": "1.1.10"
+      "version": "1.1.11"
     },
     "king_core": {
       "version": "1.1.42",
