@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T11:14:28Z",
+  "generatedAt": "2026-10-15T16:12:29Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -70,12 +70,12 @@
       "version": "1.1.10"
     },
     "king_core": {
-      "version": "1.1.41",
+      "version": "1.1.42",
       "importance": "important",
       "notes": [
-        "Adds king.log channels with independent console, database and Discord targets, plus searchable logs with live updates in /kingcore.",
-        "Update king_core before king_garages 1.0.15 and restart the entire server. Do not restart king_core in isolation.",
-        "Retention is disabled by default. License and Discord identifiers remain opt-in for new logs."
+        "Adds modular data transport with optional caches and configurable lossless compression.",
+        "Runtime analysis shows data savings and active compression and decompression time.",
+        "Update transfer consumers together; image and project adapters must explicitly enable their modules. Restart the entire server after installation."
       ]
     },
     "king_core_test": {
@@ -114,6 +114,20 @@
     },
     "king_entitysync_test": {
       "version": "2.0.3"
+    },
+    "king_evidence": {
+      "version": "1.0.0",
+      "importance": "optional",
+      "notes": [
+        "Initial release of King Evidence 1.0.0. Requires king_core 1.1.42 or newer and the matching king_evidence_props package."
+      ]
+    },
+    "king_evidence_props": {
+      "version": "1.0.0",
+      "importance": "optional",
+      "notes": [
+        "Initial release of the prop package for King Evidence 1.0.0."
+      ]
     },
     "king_factory": {
       "version": "1.0.6"
