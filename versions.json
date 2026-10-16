@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T11:41:38Z",
+  "generatedAt": "2026-10-16T20:02:30Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -17,7 +17,12 @@
   },
   "resources": {
     "king_access": {
-      "version": "1.0.12"
+      "version": "1.0.13",
+      "importance": "important",
+      "notes": [
+        "Adds admin job checks and migrates configuration and logging to the shared King resource structure.",
+        "Preserve existing settings when moving buyer configuration to config/. Update with king_worldobjects 1.0.22 for personal storage inspection."
+      ]
     },
     "king_admin": {
       "version": "1.0.22",
@@ -75,12 +80,11 @@
       "version": "1.1.11"
     },
     "king_core": {
-      "version": "1.1.43",
+      "version": "1.1.44",
       "importance": "important",
       "notes": [
-        "Centralizes client DUI lifecycle and display diagnostics, with buyer configuration under config/.",
-        "Fixes placement previews by waiting for completed surface tests and rejecting untested spawn positions.",
-        "Update matching consumers together and fully restart the server; do not restart king_core on its own."
+        "Adds player and vehicle search APIs and personal storage owner lookup.",
+        "Update with ls-inventoryhud 2.1.19, king_access 1.0.13 and king_worldobjects 1.0.22, then fully restart the server."
       ]
     },
     "king_core_test": {
@@ -418,14 +422,19 @@
       "version": "1.0.3"
     },
     "king_worldobjects": {
-      "version": "1.0.21"
+      "version": "1.0.22",
+      "importance": "important",
+      "notes": [
+        "Adds admin inspection of personal storage inventories and king_core logging.",
+        "Requires king_core 1.1.44, king_access 1.0.13 and ls-inventoryhud 2.1.19 for personal storage selection. Preserve existing buyer settings and storage data."
+      ]
     },
     "ls-inventoryhud": {
-      "version": "2.1.18",
-      "importance": "optional",
+      "version": "2.1.19",
+      "importance": "important",
       "notes": [
-        "Makes inventory loader diagnostics readable and stores registration outcomes and counts as structured log data.",
-        "Rejected framework item registrations, including item_exists, are now warnings. This update does not change the framework registration behavior."
+        "Adds inventory-wide admin search, metadata filters, player and vehicle lookup, a shared content cache and an updated admin view.",
+        "Requires king_core 1.1.44. Buyer configuration now lives under config/; preserve existing settings, inventories and icons. No database migration is required."
       ]
     }
   }
