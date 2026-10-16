@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T20:02:30Z",
+  "generatedAt": "2026-10-16T20:56:04Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -416,7 +416,14 @@
       "version": "1.0.2"
     },
     "king_weapons": {
-      "version": "1.0.3"
+      "version": "1.0.4",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core ab 1.1.41. Käuferkonfiguration und offene Texte liegen jetzt unter config/shared, SQL unter install.",
+        "Seriennummern-Aktionen, MDT-Registrierungen, Zugriffsablehnungen und Fehler nutzen das neue Core-Logging; Datenbankprotokolle sind standardmäßig aktiviert.",
+        "Für den gemeinsamen Police-Waffenbestand DOJ-Leserechte gemäß install/lb-tablet/README.md in lb-tablet/config/mdts.json übernehmen.",
+        "Werkbankzugriff, Entfernung und Fortschrittsdauer werden serverseitig erneut geprüft. Nach dem Update den Server vollständig neu starten."
+      ]
     },
     "king_weather": {
       "version": "1.0.3"
