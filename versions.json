@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T17:56:50Z",
+  "generatedAt": "2026-10-16T10:31:30Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -70,12 +70,12 @@
       "version": "1.1.11"
     },
     "king_core": {
-      "version": "1.1.42",
+      "version": "1.1.43",
       "importance": "important",
       "notes": [
-        "Adds modular data transport with optional caches and configurable lossless compression.",
-        "Runtime analysis shows data savings and active compression and decompression time.",
-        "Update transfer consumers together; image and project adapters must explicitly enable their modules. Restart the entire server after installation."
+        "Centralizes client DUI lifecycle and display diagnostics, with buyer configuration under config/.",
+        "Fixes placement previews by waiting for completed surface tests and rejecting untested spawn positions.",
+        "Update matching consumers together and fully restart the server; do not restart king_core on its own."
       ]
     },
     "king_core_test": {
@@ -116,10 +116,12 @@
       "version": "2.0.3"
     },
     "king_evidence": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "importance": "optional",
       "notes": [
-        "Initial release of King Evidence 1.0.0. Requires king_core 1.1.42 or newer and the matching king_evidence_props package."
+        "Uses the shared Core DUI services and the new config/ and install/ layout.",
+        "Shares Config.Placement.rayDistance (default 100 m) across manually placed posts, markers, laboratory devices, beamers and laser projectors.",
+        "Requires king_core 1.1.43 or newer and the matching king_evidence_props package. Preserve existing storage when updating."
       ]
     },
     "king_evidence_props": {
