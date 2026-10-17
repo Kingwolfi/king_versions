@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T20:56:04Z",
+  "generatedAt": "2026-10-17T10:46:52Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -416,13 +416,13 @@
       "version": "1.0.2"
     },
     "king_weapons": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "importance": "important",
       "notes": [
-        "Benötigt king_core ab 1.1.41. Käuferkonfiguration und offene Texte liegen jetzt unter config/shared, SQL unter install.",
-        "Seriennummern-Aktionen, MDT-Registrierungen, Zugriffsablehnungen und Fehler nutzen das neue Core-Logging; Datenbankprotokolle sind standardmäßig aktiviert.",
-        "Für den gemeinsamen Police-Waffenbestand DOJ-Leserechte gemäß install/lb-tablet/README.md in lb-tablet/config/mdts.json übernehmen.",
-        "Werkbankzugriff, Entfernung und Fortschrittsdauer werden serverseitig erneut geprüft. Nach dem Update den Server vollständig neu starten."
+        "DOJ liest gemeinsame Police-Waffen jetzt ausschließlich in der eigenen DOJ-App. Dafür die Anleitung unter install/lb-tablet/README.md übernehmen.",
+        "In lb-tablet/config/mdts.json den Job doj vollständig aus Police.defaultPermissions entfernen und den nativen DOJ-Waffenreiter durch den iframe-Reiter aus doj-weapons-view.json ersetzen.",
+        "Die neue Ansicht bietet Suche, Seitenwechsel, Besitzer-ID, Registrierungsdatum, Notizen/Kaufdaten, Bilder und Tags. Sie bleibt rein lesend und prüft Rechte sowie Tablet serverseitig.",
+        "Benötigt weiterhin king_core ab 1.1.41. Resource und Tablet-Konfiguration gemeinsam aktualisieren, anschließend den Server vollständig neu starten."
       ]
     },
     "king_weather": {
