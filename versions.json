@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T19:20:17Z",
+  "generatedAt": "2026-10-18T19:40:06Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -130,10 +130,10 @@
       "version": "2.0.3"
     },
     "king_evidence": {
-      "version": "1.0.3"
+      "version": "1.0.2"
     },
     "king_evidence_props": {
-      "version": "1.0.2"
+      "version": "1.0.1"
     },
     "king_factory": {
       "version": "1.0.6"
