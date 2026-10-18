@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T17:09:28Z",
+  "generatedAt": "2026-10-18T19:20:17Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -130,20 +130,10 @@
       "version": "2.0.3"
     },
     "king_evidence": {
-      "version": "1.0.1",
-      "importance": "optional",
-      "notes": [
-        "Uses the shared Core DUI services and the new config/ and install/ layout.",
-        "Shares Config.Placement.rayDistance (default 100 m) across manually placed posts, markers, laboratory devices, beamers and laser projectors.",
-        "Requires king_core 1.1.43 or newer and the matching king_evidence_props package. Preserve existing storage when updating."
-      ]
+      "version": "1.0.3"
     },
     "king_evidence_props": {
-      "version": "1.0.0",
-      "importance": "optional",
-      "notes": [
-        "Initial release of the prop package for King Evidence 1.0.0."
-      ]
+      "version": "1.0.2"
     },
     "king_factory": {
       "version": "1.0.6"
@@ -176,6 +166,12 @@
         "Use Core DUI for images, with opaque dimming and existing lighting.",
         "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
       ]
+    },
+    "king_guidance": {
+      "version": "1.0.0"
+    },
+    "king_guidance_props": {
+      "version": "1.0.0"
     },
     "king_housing": {
       "version": "1.0.9"
