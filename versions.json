@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T20:03:05Z",
+  "generatedAt": "2026-10-19T10:20:43Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -168,7 +168,7 @@
       ]
     },
     "king_guidance": {
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     "king_guidance_props": {
       "version": "1.0.0"
