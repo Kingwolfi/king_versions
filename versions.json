@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T11:40:51Z",
+  "generatedAt": "2026-10-23T12:13:40Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -31,6 +31,12 @@
         "Improves audit messages with item quantities, target names, garages, buckets, changed fields and readable failure reasons.",
         "Existing historical messages remain unchanged. Requires king_core 1.1.41 or newer."
       ]
+    },
+    "king_advent": {
+      "version": "1.0.0"
+    },
+    "king_advent_props": {
+      "version": "1.0.0"
     },
     "king_arcade": {
       "version": "1.0.4"
