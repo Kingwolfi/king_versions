@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T17:11:45Z",
+  "generatedAt": "2026-11-03T14:28:45Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -25,42 +25,33 @@
       ]
     },
     "king_admin": {
-      "version": "1.0.22",
-      "importance": "optional",
-      "notes": [
-        "Improves audit messages with item quantities, target names, garages, buckets, changed fields and readable failure reasons.",
-        "Existing historical messages remain unchanged. Requires king_core 1.1.41 or newer."
-      ]
+      "version": "1.0.23",
+      "importance": "optional"
     },
     "king_advent": {
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "king_advent_props": {
       "version": "1.0.0"
     },
     "king_arcade": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_bag": {
       "version": "1.0.2"
     },
     "king_banking": {
-      "version": "1.0.18",
-      "importance": "important",
-      "notes": [
-        "Neuer Export RouteFrameworkBankMoney für die schlanke Framework-Anbindung über king_core und den Abgleich des ursprünglichen Spielerobjekts.",
-        "Gemeinsam mit king_core 1.1.34 und dem aktualisierten Framework-Hook installieren; anschließend den Server vollständig neu starten.",
-        "Eine bereits abgeschlossene Buchung bleibt erfolgreich, wenn das Zurückschreiben des gespiegelten Kontostands fehlschlägt."
-      ]
+      "version": "1.0.19",
+      "importance": "important"
     },
     "king_billing": {
-      "version": "1.0.12"
+      "version": "1.0.13"
     },
     "king_blackmarket": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_buffs": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_cablecar": {
       "version": "1.0.4",
@@ -71,149 +62,124 @@
       ]
     },
     "king_cards": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_cloth_manager": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_clothing": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_combatmode": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_consumables": {
-      "version": "1.1.11"
+      "version": "1.1.12"
     },
     "king_core": {
-      "version": "1.1.45",
-      "importance": "important",
-      "notes": [
-        "Adds owner/key vehicle listing with targeted key candidates validated through king.key.Has; the plates option is removed.",
-        "Update together with king_garages 1.0.16 and fully restart the server. Custom key providers need a vehicle reference listing adapter."
-      ]
+      "version": "1.1.46",
+      "importance": "important"
     },
     "king_core_test": {
-      "version": "1.1.24"
+      "version": "1.1.25"
     },
     "king_crafting": {
-      "version": "1.0.9"
+      "version": "1.0.10"
     },
     "king_dishwasher": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_dispatch_lb_phone": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_dj_stream": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_documents": {
-      "version": "1.0.22",
-      "importance": "important",
-      "notes": [
-        "Behebt das Speichern von Unterschriften und Stempeln mit LS-Inventar; Rückmeldungen erscheinen direkt im Dokument."
-      ]
+      "version": "1.0.23",
+      "importance": "important"
     },
     "king_easter": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_elevator": {
-      "version": "1.0.3",
-      "importance": "important",
-      "notes": [
-        "Use Core DUI for lift displays and preserve preview rendering.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.4",
+      "importance": "important"
     },
     "king_energy": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_entitysync": {
-      "version": "2.0.4"
+      "version": "2.0.5"
     },
     "king_entitysync_test": {
-      "version": "2.0.3"
+      "version": "2.0.4"
     },
     "king_evidence": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_evidence_props": {
       "version": "1.0.1"
     },
     "king_factory": {
-      "version": "1.0.6"
-    },
-    "king_farming": {
-      "version": "1.0.14"
-    },
-    "king_fire": {
-      "version": "1.0.3"
-    },
-    "king_garages": {
-      "version": "1.0.16",
-      "importance": "important",
-      "notes": [
-        "Adds key-based parking, distance-priced timed transfers with bank/cash payment, and two-job authority approval, configured globally in the Creator.",
-        "New features are enabled by default; saved settings are preserved. Configure requester and approver jobs before using authority approval.",
-        "Requires king_core 1.1.45. Update both resources and fully restart the server. Preserve buyer settings; configuration now lives under config/."
-      ]
-    },
-    "king_gathering": {
-      "version": "1.0.8"
-    },
-    "king_government": {
-      "version": "1.0.4"
-    },
-    "king_graffiti": {
-      "version": "1.0.8",
-      "importance": "important",
-      "notes": [
-        "Use Core DUI for images, with opaque dimming and existing lighting.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
-    },
-    "king_guidance": {
-      "version": "1.0.2"
-    },
-    "king_guidance_props": {
-      "version": "1.0.1"
-    },
-    "king_housing": {
-      "version": "1.0.9"
-    },
-    "king_immigration_office": {
-      "version": "1.0.9"
-    },
-    "king_insurance": {
-      "version": "1.0.7",
-      "importance": "important",
-      "notes": [
-        "Core-Logging für Verträge, Beiträge, Kündigungen, Verlängerungen und Besitzerwechsel; Konsole und king_core_logs standardmäßig aktiv.",
-        "king_core ab 1.1.41 erforderlich. Nach dem Update den gesamten Server neu starten.",
-        "Discord ist optional und wird je Channel ausschließlich in server/config.lua konfiguriert."
-      ]
-    },
-    "king_keys": {
-      "version": "1.0.14"
-    },
-    "king_keys_lb_phone": {
-      "version": "1.0.5"
-    },
-    "king_lb_payphone": {
-      "version": "1.0.2"
-    },
-    "king_licence_manager": {
-      "version": "1.0.2"
-    },
-    "king_loadingscreen": {
-      "version": "1.0.9"
-    },
-    "king_loot": {
       "version": "1.0.7"
     },
-    "king_lost_and_found": {
+    "king_farming": {
+      "version": "1.0.15"
+    },
+    "king_fire": {
+      "version": "1.0.4"
+    },
+    "king_garages": {
+      "version": "1.0.17",
+      "importance": "important"
+    },
+    "king_gathering": {
+      "version": "1.0.9"
+    },
+    "king_government": {
+      "version": "1.0.5"
+    },
+    "king_graffiti": {
+      "version": "1.0.9",
+      "importance": "important"
+    },
+    "king_guidance": {
       "version": "1.0.3"
+    },
+    "king_guidance_props": {
+      "version": "1.0.2"
+    },
+    "king_housing": {
+      "version": "1.0.10"
+    },
+    "king_immigration_office": {
+      "version": "1.0.10"
+    },
+    "king_insurance": {
+      "version": "1.0.8",
+      "importance": "important"
+    },
+    "king_keys": {
+      "version": "1.0.15"
+    },
+    "king_keys_lb_phone": {
+      "version": "1.0.6"
+    },
+    "king_lb_payphone": {
+      "version": "1.0.3"
+    },
+    "king_licence_manager": {
+      "version": "1.0.3"
+    },
+    "king_loadingscreen": {
+      "version": "1.0.10"
+    },
+    "king_loot": {
+      "version": "1.0.8"
+    },
+    "king_lost_and_found": {
+      "version": "1.0.4"
     },
     "king_lucky_game": {
       "version": "1.0.5",
@@ -224,78 +190,67 @@
       ]
     },
     "king_manager": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_map_manager": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_market": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_media_network": {
-      "version": "1.0.16",
-      "importance": "important",
-      "notes": [
-        "Use Core browser transport and atlas allocation; preserve opacity.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.17",
+      "importance": "important"
     },
     "king_media_upload": {
       "version": "0.1.2"
     },
     "king_money": {
-      "version": "1.0.3"
-    },
-    "king_mugshot": {
-      "version": "1.0.3"
-    },
-    "king_notebook": {
-      "version": "1.0.0"
-    },
-    "king_npc": {
-      "version": "1.0.7"
-    },
-    "king_order": {
-      "version": "1.0.8"
-    },
-    "king_parking": {
       "version": "1.0.4"
     },
-    "king_paycheck": {
-      "version": "1.0.2"
+    "king_mugshot": {
+      "version": "1.0.4"
     },
-    "king_ped_costume": {
-      "version": "1.0.2"
-    },
-    "king_pets": {
-      "version": "1.0.10",
-      "importance": "important",
-      "notes": [
-        "Use managed Core DUI for shop signs and opaque inventory dimming.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
-    },
-    "king_pets_chicken": {
+    "king_notebook": {
       "version": "1.0.1"
     },
-    "king_phone_charger": {
+    "king_npc": {
+      "version": "1.0.8"
+    },
+    "king_order": {
+      "version": "1.0.9"
+    },
+    "king_parking": {
+      "version": "1.0.5"
+    },
+    "king_paycheck": {
+      "version": "1.0.3"
+    },
+    "king_ped_costume": {
+      "version": "1.0.3"
+    },
+    "king_pets": {
+      "version": "1.0.11",
+      "importance": "important"
+    },
+    "king_pets_chicken": {
       "version": "1.0.2"
+    },
+    "king_phone_charger": {
+      "version": "1.0.3"
     },
     "king_pick_a_number": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_pocket_vehicles": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_polyzone": {
-      "version": "1.0.2",
-      "importance": "optional",
-      "notes": [
-        "Fügt dauerhaft gespeicherte Sperrzonen hinzu."
-      ]
+      "version": "1.0.3",
+      "importance": "optional"
     },
     "king_quest": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_racing": {
       "version": "1.0.3"
@@ -307,60 +262,47 @@
       "version": "1.0.2"
     },
     "king_registration_lb_tablet": {
-      "version": "1.0.11",
-      "importance": "important",
-      "notes": [
-        "Benötigt king_core 1.1.41 oder neuer. Zentrale Logs für Registrierung und Aktenfreigaben sind standardmäßig in der Core-Datenbank aktiv; Discord bleibt separat konfigurierbar.",
-        "Die aktualisierten LB-Bridge- und Aktenfreigabe-Dateien aus install/lb-tablet übernehmen und den gesamten Server neu starten. Die neue MDT-Abfrage benötigt MariaDB 10.2+ oder MySQL 8.0+.",
-        "Behebt die Spieleingabe beim Freigabegrund sowie serverseitige Identitäts-/Bearbeitungsprüfung, endgültiges Löschen und MDT-Suchfilter. Enthält ein neues Tablet-App-Icon mit transparentem Außenrand."
-      ]
+      "version": "1.0.12",
+      "importance": "important"
     },
     "king_scratchcard": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_self_storage": {
-      "version": "1.0.8",
-      "importance": "important",
-      "notes": [
-        "Use managed Core DUI for signs and preserve opaque dimming.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.9",
+      "importance": "important"
     },
     "king_shop": {
-      "version": "1.0.23",
-      "importance": "optional",
-      "notes": [
-        "Datenschutzgerechte Diagnose für Target-Auswahl, Server-Snapshots, Client-Versand und NUI-Empfang.",
-        "Der Shop lädt den Sprachkatalog beim Öffnen erneut, wenn ein vorheriger Ladeversuch fehlgeschlagen ist."
-      ]
+      "version": "1.0.24",
+      "importance": "optional"
     },
     "king_sit": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_skills": {
-      "version": "1.0.12"
+      "version": "1.0.13"
     },
     "king_skin_rescue": "1.0.0",
     "king_speak": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_speedtraps": {
-      "version": "1.0.11"
+      "version": "1.0.12"
     },
     "king_speedtraps_detector_lb_phone": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_speedtraps_props": {
       "version": "1.0.2"
     },
     "king_spikestrips": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_starter_items": {
-      "version": "1.0.9"
+      "version": "1.0.10"
     },
     "king_target": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_tattoos": {
       "version": "1.0.4",
@@ -377,74 +319,56 @@
       "version": "1.3.2"
     },
     "king_tts": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_ui_template": {
       "version": "1.0.2"
     },
     "king_used_vehicles": {
-      "version": "1.0.52",
-      "importance": "important",
-      "notes": [
-        "Use Core DUI transport and atlas allocation for vehicle display cards.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.53",
+      "importance": "important"
     },
     "king_user_menu": {
       "version": "1.0.2"
     },
     "king_vehicle_customs": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_vehicle_manager": {
-      "version": "1.0.3"
-    },
-    "king_vehicle_mods": {
-      "version": "1.0.2"
-    },
-    "king_vehicle_registration": {
-      "version": "1.0.8"
-    },
-    "king_vehicle_road_damage": {
-      "version": "1.0.2"
-    },
-    "king_vehicle_saver": {
       "version": "1.0.4"
     },
-    "king_vending_machine": {
+    "king_vehicle_mods": {
+      "version": "1.0.3"
+    },
+    "king_vehicle_registration": {
       "version": "1.0.9"
+    },
+    "king_vehicle_road_damage": {
+      "version": "1.0.3"
+    },
+    "king_vehicle_saver": {
+      "version": "1.0.5"
+    },
+    "king_vending_machine": {
+      "version": "1.0.10"
     },
     "king_voicemute": {
       "version": "1.0.2"
     },
     "king_weapons": {
-      "version": "1.0.5",
-      "importance": "important",
-      "notes": [
-        "DOJ liest gemeinsame Police-Waffen jetzt ausschließlich in der eigenen DOJ-App. Dafür die Anleitung unter install/lb-tablet/README.md übernehmen.",
-        "In lb-tablet/config/mdts.json den Job doj vollständig aus Police.defaultPermissions entfernen und den nativen DOJ-Waffenreiter durch den iframe-Reiter aus doj-weapons-view.json ersetzen.",
-        "Die neue Ansicht bietet Suche, Seitenwechsel, Besitzer-ID, Registrierungsdatum, Notizen/Kaufdaten, Bilder und Tags. Sie bleibt rein lesend und prüft Rechte sowie Tablet serverseitig.",
-        "Benötigt weiterhin king_core ab 1.1.41. Resource und Tablet-Konfiguration gemeinsam aktualisieren, anschließend den Server vollständig neu starten."
-      ]
+      "version": "1.0.6",
+      "importance": "important"
     },
     "king_weather": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_worldobjects": {
-      "version": "1.0.22",
-      "importance": "important",
-      "notes": [
-        "Adds admin inspection of personal storage inventories and king_core logging.",
-        "Requires king_core 1.1.44, king_access 1.0.13 and ls-inventoryhud 2.1.19 for personal storage selection. Preserve existing buyer settings and storage data."
-      ]
+      "version": "1.0.23",
+      "importance": "important"
     },
     "ls-inventoryhud": {
-      "version": "2.1.19",
-      "importance": "important",
-      "notes": [
-        "Adds inventory-wide admin search, metadata filters, player and vehicle lookup, a shared content cache and an updated admin view.",
-        "Requires king_core 1.1.44. Buyer configuration now lives under config/; preserve existing settings, inventories and icons. No database migration is required."
-      ]
+      "version": "2.1.20",
+      "importance": "important"
     }
   }
 }
