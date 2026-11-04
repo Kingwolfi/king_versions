@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T16:01:05Z",
+  "generatedAt": "2026-11-04T18:03:15Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -17,7 +17,8 @@
   },
   "resources": {
     "king_access": {
-      "version": "1.0.14"
+      "version": "1.0.15",
+      "importance": "important"
     },
     "king_admin": {
       "version": "1.0.23",
@@ -66,7 +67,7 @@
       "version": "1.1.13"
     },
     "king_core": {
-      "version": "1.1.46",
+      "version": "1.1.47",
       "importance": "important"
     },
     "king_core_test": {
@@ -339,7 +340,7 @@
       "version": "1.0.5"
     },
     "king_worldobjects": {
-      "version": "1.0.25",
+      "version": "1.0.26",
       "importance": "important"
     },
     "ls-inventoryhud": {
