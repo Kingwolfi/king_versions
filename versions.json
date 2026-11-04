@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T18:03:15Z",
+  "generatedAt": "2026-11-04T20:27:06Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -222,7 +222,10 @@
       "version": "1.0.3"
     },
     "king_phone_charger": {
-      "version": "1.0.4"
+      "version": "1.0.5"
+    },
+    "king_phone_charger_props": {
+      "version": "1.0.0"
     },
     "king_pick_a_number": {
       "version": "1.0.4"
