@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T12:43:24Z",
+  "generatedAt": "2026-11-04T16:01:05Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -339,7 +339,7 @@
       "version": "1.0.5"
     },
     "king_worldobjects": {
-      "version": "1.0.24",
+      "version": "1.0.25",
       "importance": "important"
     },
     "ls-inventoryhud": {
