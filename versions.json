@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T19:39:41Z",
+  "generatedAt": "2026-11-04T11:21:52Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -35,23 +35,22 @@
       "version": "1.0.0"
     },
     "king_arcade": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_bag": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_banking": {
-      "version": "1.0.19",
-      "importance": "important"
+      "version": "1.0.20"
     },
     "king_billing": {
-      "version": "1.0.13"
+      "version": "1.0.14"
     },
     "king_blackmarket": {
       "version": "1.0.3"
     },
     "king_buffs": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_cablecar": {
       "version": "1.0.4",
@@ -65,35 +64,35 @@
       "version": "1.0.4"
     },
     "king_cloth_manager": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_clothing": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_combatmode": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_consumables": {
-      "version": "1.1.12"
+      "version": "1.1.13"
     },
     "king_core": {
       "version": "1.1.46",
       "importance": "important"
     },
     "king_core_test": {
-      "version": "1.1.25"
+      "version": "1.1.26"
     },
     "king_crafting": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_dishwasher": {
       "version": "1.0.3"
     },
     "king_dispatch_lb_phone": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_dj_stream": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_documents": {
       "version": "1.0.23",
@@ -128,7 +127,7 @@
       "version": "1.0.15"
     },
     "king_fire": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_garages": {
       "version": "1.0.17",
@@ -151,10 +150,10 @@
       "version": "1.0.2"
     },
     "king_housing": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_immigration_office": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_insurance": {
       "version": "1.0.8",
@@ -170,10 +169,10 @@
       "version": "1.0.3"
     },
     "king_licence_manager": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_loadingscreen": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_loot": {
       "version": "1.0.8"
@@ -190,107 +189,104 @@
       ]
     },
     "king_manager": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_map_manager": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_market": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_media_network": {
       "version": "1.0.17",
       "importance": "important"
     },
     "king_media_upload": {
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
     "king_money": {
       "version": "1.0.4"
     },
     "king_mugshot": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_notebook": {
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "king_npc": {
-      "version": "1.0.8"
+      "version": "1.0.9"
     },
     "king_order": {
-      "version": "1.0.9"
+      "version": "1.0.10"
     },
     "king_parking": {
       "version": "1.0.5"
     },
     "king_paycheck": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_ped_costume": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_pets": {
       "version": "1.0.11",
       "importance": "important"
     },
     "king_pets_chicken": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_phone_charger": {
       "version": "1.0.3"
     },
     "king_pick_a_number": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_pocket_vehicles": {
       "version": "1.0.3"
     },
     "king_polyzone": {
-      "version": "1.0.3",
-      "importance": "optional"
+      "version": "1.0.4"
     },
     "king_quest": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_racing": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_radiation": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_ragdoll": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_registration_lb_tablet": {
-      "version": "1.0.12",
-      "importance": "important"
+      "version": "1.0.13"
     },
     "king_scratchcard": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_self_storage": {
       "version": "1.0.9",
       "importance": "important"
     },
     "king_shop": {
-      "version": "1.0.24",
-      "importance": "optional"
+      "version": "1.0.25"
     },
     "king_sit": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_skills": {
       "version": "1.0.13"
     },
     "king_skin_rescue": "1.0.0",
     "king_speak": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_speedtraps": {
       "version": "1.0.12"
     },
     "king_speedtraps_detector_lb_phone": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_speedtraps_props": {
       "version": "1.0.2"
@@ -299,10 +295,10 @@
       "version": "1.0.3"
     },
     "king_starter_items": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_target": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_tattoos": {
       "version": "1.0.4",
@@ -313,13 +309,13 @@
       ]
     },
     "king_tattoos_stream": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_tower": {
-      "version": "1.3.2"
+      "version": "1.3.3"
     },
     "king_tts": {
-      "version": "1.0.7"
+      "version": "1.0.8"
     },
     "king_ui_template": {
       "version": "1.0.2"
@@ -329,38 +325,38 @@
       "importance": "important"
     },
     "king_user_menu": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_vehicle_customs": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_vehicle_manager": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_vehicle_mods": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_vehicle_registration": {
-      "version": "1.0.9"
+      "version": "1.0.10"
     },
     "king_vehicle_road_damage": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_vehicle_saver": {
       "version": "1.0.5"
     },
     "king_vending_machine": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_voicemute": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_weapons": {
       "version": "1.0.6",
       "importance": "important"
     },
     "king_weather": {
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     "king_worldobjects": {
       "version": "1.0.24",
