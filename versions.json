@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T11:21:52Z",
+  "generatedAt": "2026-11-04T12:43:24Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -17,12 +17,7 @@
   },
   "resources": {
     "king_access": {
-      "version": "1.0.13",
-      "importance": "important",
-      "notes": [
-        "Adds admin job checks and migrates configuration and logging to the shared King resource structure.",
-        "Preserve existing settings when moving buyer configuration to config/. Update with king_worldobjects 1.0.22 for personal storage inspection."
-      ]
+      "version": "1.0.14"
     },
     "king_admin": {
       "version": "1.0.23",
@@ -32,7 +27,7 @@
       "version": "1.0.2"
     },
     "king_advent_props": {
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     "king_arcade": {
       "version": "1.0.6"
@@ -53,12 +48,7 @@
       "version": "1.0.7"
     },
     "king_cablecar": {
-      "version": "1.0.4",
-      "importance": "important",
-      "notes": [
-        "Manage cabin and station displays through Core DUI; preserve opacity.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.5"
     },
     "king_cards": {
       "version": "1.0.4"
@@ -109,16 +99,16 @@
       "version": "1.0.3"
     },
     "king_entitysync": {
-      "version": "2.0.5"
+      "version": "2.0.6"
     },
     "king_entitysync_test": {
       "version": "2.0.4"
     },
     "king_evidence": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_evidence_props": {
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "king_factory": {
       "version": "1.0.7"
@@ -137,17 +127,17 @@
       "version": "1.0.9"
     },
     "king_government": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_graffiti": {
       "version": "1.0.9",
       "importance": "important"
     },
     "king_guidance": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_guidance_props": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_housing": {
       "version": "1.0.11"
@@ -181,12 +171,7 @@
       "version": "1.0.4"
     },
     "king_lucky_game": {
-      "version": "1.0.5",
-      "importance": "important",
-      "notes": [
-        "Use managed Core DUI for world boards and opaque dimming.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.6"
     },
     "king_manager": {
       "version": "1.0.7"
@@ -236,7 +221,7 @@
       "version": "1.0.3"
     },
     "king_phone_charger": {
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "king_pick_a_number": {
       "version": "1.0.4"
@@ -289,7 +274,7 @@
       "version": "1.0.6"
     },
     "king_speedtraps_props": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_spikestrips": {
       "version": "1.0.3"
@@ -301,12 +286,7 @@
       "version": "1.0.4"
     },
     "king_tattoos": {
-      "version": "1.0.4",
-      "importance": "important",
-      "notes": [
-        "Use Core DUI lifecycle while preserving tattoo readback and previews.",
-        "Requires king_core 1.1.43 or newer. Move buyer settings to config/ and preserve existing storage when updating."
-      ]
+      "version": "1.0.5"
     },
     "king_tattoos_stream": {
       "version": "1.0.3"
