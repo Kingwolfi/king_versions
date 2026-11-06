@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T19:02:50Z",
+  "generatedAt": "2026-11-06T13:42:55Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -184,12 +184,12 @@
       "version": "1.0.6"
     },
     "king_media_network": {
-      "version": "1.0.18",
+      "version": "1.0.19",
       "importance": "important",
       "notes": [
-        "Vor dem Update bestehende Media-Tabellen und storage gemeinsam sichern und offline konvertieren. Die Resource führt die einmalige Datenkonvertierung nicht automatisch aus.",
-        "Gemeinsame Designbibliotheken und Speicherbudgets pro Spieler, Job oder Gang; Kleidungskatalog mit automatischen IDs im Admin-Creator.",
-        "Schnellere Katalog- und Speicherübersichten, überarbeitete Zuteilung und Dialoge sowie leere neue Entwürfe bei Slots ohne Designzuordnung."
+        "Vereinheitlichte Design- und Slotrechte mit Rangnamen und delegierbarer Verwaltung.",
+        "Design laden und speichern sind von der ausdrücklichen Slotzuordnung getrennt; gemeinsame Vorschau-Caches und überarbeiteter Designer.",
+        "Beim Update vorhandene Media-Datenbank und storage behalten. Alte, nicht konvertierte Installationen benötigen eine Offline-Konvertierung; Konfigurationsdefaults für Rang 1 und Verwaltung -1 übernehmen."
       ]
     },
     "king_media_upload": {
