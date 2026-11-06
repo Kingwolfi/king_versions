@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T13:42:55Z",
+  "generatedAt": "2026-11-06T13:59:59Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -178,7 +178,12 @@
       "version": "1.0.7"
     },
     "king_map_manager": {
-      "version": "1.0.7"
+      "version": "1.0.8",
+      "importance": "important",
+      "notes": [
+        "Requires a one-time external migration of existing categories, exclusions and player filters before upgrading. Migration tools are not included in the resource package.",
+        "Adds an admin blip creator with private notes and local sprite previews."
+      ]
     },
     "king_market": {
       "version": "1.0.6"
