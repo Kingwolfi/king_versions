@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T10:13:21Z",
+  "generatedAt": "2026-11-09T18:47:57Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -166,7 +166,11 @@
       "version": "1.0.11"
     },
     "king_loot": {
-      "version": "1.0.8"
+      "version": "1.0.9",
+      "importance": "important",
+      "notes": [
+        "Verhindert erneutes Würfeln und Nachfüllen nach Teilfehlern sowie parallele Befüllung. Fehler markieren den Spawn als gelootet; bereits hinzugefügte Items bleiben bis zur normalen Bereinigung erhalten."
+      ]
     },
     "king_lost_and_found": {
       "version": "1.0.4"
@@ -238,7 +242,11 @@
       "version": "1.0.1"
     },
     "king_pick_a_number": {
-      "version": "1.0.4"
+      "version": "1.0.5",
+      "importance": "important",
+      "notes": [
+        "Sichert die Ticketausgabe serverseitig mit System-, Aktivstatus-, Distanz- und Cooldown-Prüfungen ab und entfernt den ungeschützten zweiten Ausgabeweg."
+      ]
     },
     "king_pocket_vehicles": {
       "version": "1.0.3"
@@ -294,7 +302,11 @@
       "version": "1.0.3"
     },
     "king_starter_items": {
-      "version": "1.0.11"
+      "version": "1.0.12",
+      "importance": "important",
+      "notes": [
+        "Schließt die wiederholbare Starterpaket-Ausgabe über ein öffentliches Client-Event. Einreise und Admin verwenden weiterhin den lokalen Serverhandler."
+      ]
     },
     "king_target": {
       "version": "1.0.4"
