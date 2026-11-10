@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T11:47:04Z",
+  "generatedAt": "2026-11-10T13:43:31Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -67,8 +67,12 @@
       "version": "1.1.13"
     },
     "king_core": {
-      "version": "1.1.49",
-      "importance": "important"
+      "version": "1.1.50",
+      "importance": "important",
+      "notes": [
+        "Neue Jobs-/Gangs-API und eigene Spielerübersicht mit /kingroles; zusätzliche schmale Client-/Serverleser und optimierte Rechteprüfungen.",
+        "Core und abhängige Updates gemeinsam übernehmen und den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
+      ]
     },
     "king_core_test": {
       "version": "1.1.26"
@@ -115,14 +119,21 @@
       "version": "1.0.7"
     },
     "king_farming": {
-      "version": "1.0.15"
+      "version": "1.0.16",
+      "importance": "optional",
+      "notes": [
+        "Berechtigungsabfragen für Objektaktionen werden innerhalb einer Anfrage zusammengefasst; spätere Aktionen prüfen weiterhin frisch."
+      ]
     },
     "king_fire": {
       "version": "1.0.5"
     },
     "king_garages": {
-      "version": "1.0.17",
-      "importance": "important"
+      "version": "1.0.18",
+      "importance": "optional",
+      "notes": [
+        "Job-/Gangwechsel aktualisieren nur die betroffenen Spielersitzungen; weniger wiederholte Rechteprüfungen innerhalb einer Garagenansicht."
+      ]
     },
     "king_gathering": {
       "version": "1.0.9"
@@ -135,7 +146,11 @@
       "importance": "important"
     },
     "king_guidance": {
-      "version": "1.0.4"
+      "version": "1.0.5",
+      "importance": "optional",
+      "notes": [
+        "Weniger wiederholte Rechteabfragen und keine unnötige Clientaktualisierung bei nachgewiesenen reinen Dienstwechseln."
+      ]
     },
     "king_guidance_props": {
       "version": "1.0.3"
@@ -286,7 +301,12 @@
       "importance": "important"
     },
     "king_shop": {
-      "version": "1.0.25"
+      "version": "1.0.26",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core 1.1.50 oder neuer. Gemeinsam aktualisieren und den vollständigen FXServer neu starten.",
+        "Gezielte aktive Rollenabfragen und zentraler providerbasierter Dienststatus für die Polizeianforderung."
+      ]
     },
     "king_sit": {
       "version": "1.0.6"
