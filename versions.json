@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T18:47:57Z",
+  "generatedAt": "2026-11-10T11:47:04Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -144,7 +144,12 @@
       "version": "1.0.11"
     },
     "king_immigration_office": {
-      "version": "1.0.11"
+      "version": "1.0.12",
+      "importance": "important",
+      "notes": [
+        "Sicherheitsfix: Einreiseauswahl und Startervergabe benötigen einen serverseitigen Einmalcode für den neu angelegten Charakter.",
+        "Für die Aktivierung die mitgelieferte vms_multichars-Serverintegration gemeinsam übernehmen; bestehende Charakterauswahl erteilt keine Freigabe."
+      ]
     },
     "king_insurance": {
       "version": "1.0.8",
@@ -223,7 +228,11 @@
       "version": "1.0.5"
     },
     "king_paycheck": {
-      "version": "1.0.4"
+      "version": "1.0.5",
+      "importance": "important",
+      "notes": [
+        "Behebt falsche Anspruchssperren und Rücknahmen bei einem Periodenwechsel während laufender SQL- oder Zahlungsvorgänge."
+      ]
     },
     "king_ped_costume": {
       "version": "1.0.4"
