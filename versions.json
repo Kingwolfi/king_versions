@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T13:43:31Z",
+  "generatedAt": "2026-11-13T09:39:10Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -67,10 +67,11 @@
       "version": "1.1.13"
     },
     "king_core": {
-      "version": "1.1.50",
+      "version": "1.1.51",
       "importance": "important",
       "notes": [
-        "Neue Jobs-/Gangs-API und eigene Spielerübersicht mit /kingroles; zusätzliche schmale Client-/Serverleser und optimierte Rechteprüfungen.",
+        "Viele Fehlerkorrekturen aus dem Core-Review, unter anderem für Loader, Spawn-Helfer, TextUI, Fahrzeug- und Garagen-API, Bank, Offline-Schreibvorgänge sowie Schlüssel- und Appearance-Adapter; neue Körperzustände mit Voice-Stummschaltung, auch für YACA und SaltyChat.",
+        "king.input.registerKeyMap hat eine neue Signatur und king.appearance.GetTattooCatalog entfällt: king_speak 1.0.7 und king_tattoos 1.0.6 gemeinsam mit dem Core aktualisieren.",
         "Core und abhängige Updates gemeinsam übernehmen und den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
       ]
     },
@@ -316,7 +317,11 @@
     },
     "king_skin_rescue": "1.0.0",
     "king_speak": {
-      "version": "1.0.6"
+      "version": "1.0.7",
+      "importance": "important",
+      "notes": [
+        "Befehl und Tasten laufen über king.input.registerKeyMap und gehören king_speak; benötigt king_core 1.1.51, gemeinsam aktualisieren."
+      ]
     },
     "king_speedtraps": {
       "version": "1.0.12"
@@ -341,7 +346,11 @@
       "version": "1.0.4"
     },
     "king_tattoos": {
-      "version": "1.0.5"
+      "version": "1.0.6",
+      "importance": "important",
+      "notes": [
+        "Bringt einen eigenen, aus den GTA-Spieldateien erzeugten Grundkatalog mit und braucht illenium-appearance dafür nicht mehr; gemeinsam mit king_core 1.1.51 aktualisieren."
+      ]
     },
     "king_tattoos_stream": {
       "version": "1.0.3"
@@ -363,7 +372,11 @@
       "version": "1.0.3"
     },
     "king_vehicle_customs": {
-      "version": "1.0.6"
+      "version": "1.0.7",
+      "importance": "optional",
+      "notes": [
+        "Spieler sehen übersetzte Meldungen, wenn Garagenstatus oder Fahrzeugzuweisung nicht verfügbar sind; Details stehen im Serverlog."
+      ]
     },
     "king_vehicle_manager": {
       "version": "1.0.5"
