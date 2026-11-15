@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T14:05:43Z",
+  "generatedAt": "2026-11-15T20:59:59Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -21,8 +21,7 @@
       "importance": "important"
     },
     "king_admin": {
-      "version": "1.0.23",
-      "importance": "optional"
+      "version": "1.0.24"
     },
     "king_advent": {
       "version": "1.0.2"
@@ -67,10 +66,10 @@
       "version": "1.1.13"
     },
     "king_core": {
-      "version": "1.1.52",
+      "version": "1.1.53",
       "importance": "important",
       "notes": [
-        "Neue Anbindung für king_inventory, sichtbare Fessel- und Sack-Props mit Overlay sowie Items, die erst nach dem Start in QBCore registriert werden.",
+        "Geänderte Items aus dem Inventar werden jetzt auch in QBCore aktualisiert; neu: Framework-Itemliste (QBCore-Datei, ESX-Tabelle) aus dem Inventarkatalog vergleichen und schreiben.",
         "Den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
       ]
     },
@@ -409,8 +408,7 @@
       "version": "1.0.3"
     },
     "king_weapons": {
-      "version": "1.0.6",
-      "importance": "important"
+      "version": "1.0.7"
     },
     "king_weather": {
       "version": "1.0.5"
