@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T15:53:10Z",
+  "generatedAt": "2026-11-15T14:05:43Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -67,12 +67,11 @@
       "version": "1.1.13"
     },
     "king_core": {
-      "version": "1.1.51",
+      "version": "1.1.52",
       "importance": "important",
       "notes": [
-        "Viele Fehlerkorrekturen aus dem Core-Review, unter anderem für Loader, Spawn-Helfer, TextUI, Fahrzeug- und Garagen-API, Bank, Offline-Schreibvorgänge sowie Schlüssel- und Appearance-Adapter; neue Körperzustände mit Voice-Stummschaltung, auch für YACA und SaltyChat.",
-        "king.input.registerKeyMap hat eine neue Signatur und king.appearance.GetTattooCatalog entfällt: king_speak 1.0.7 und king_tattoos 1.0.6 gemeinsam mit dem Core aktualisieren.",
-        "Core und abhängige Updates gemeinsam übernehmen und den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
+        "Neue Anbindung für king_inventory, sichtbare Fessel- und Sack-Props mit Overlay sowie Items, die erst nach dem Start in QBCore registriert werden.",
+        "Den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
       ]
     },
     "king_core_test": {
@@ -174,6 +173,12 @@
     "king_insurance": {
       "version": "1.0.8",
       "importance": "important"
+    },
+    "king_inventory": {
+      "version": "1.0.0",
+      "notes": [
+        "Erste Version des neuen Inventars als Ersatz für ls-inventoryhud. Für den Umstieg king_core 1.1.52 verwenden, den Inventar-Provider auf king_inventory stellen und die bestehenden Inventare mit invimport übernehmen."
+      ]
     },
     "king_keys": {
       "version": "1.0.15"
