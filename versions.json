@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T09:02:29Z",
+  "generatedAt": "2026-11-16T09:13:24Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -63,22 +63,18 @@
       "version": "1.0.6"
     },
     "king_consumables": {
-      "version": "1.1.13"
+      "version": "1.1.14"
     },
     "king_core": {
-      "version": "1.1.53",
+      "version": "1.1.54",
       "importance": "important",
       "notes": [
-        "Geänderte Items aus dem Inventar werden jetzt auch in QBCore aktualisiert; neu: Framework-Itemliste (QBCore-Datei, ESX-Tabelle) aus dem Inventarkatalog vergleichen und schreiben.",
+        "Fahrzeuge ohne Transparenz werden wieder normal gezeichnet und verdecken Werbeflächen und andere Weltanzeigen dahinter.",
         "Den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
       ]
     },
     "king_core_test": {
-      "version": "1.1.27",
-      "importance": "optional",
-      "notes": [
-        "Neuer Admin-Befehl /kingstatetest zum Setzen und Lösen von Körperzuständen für Ingame-Tests; benötigt king_core 1.1.51."
-      ]
+      "version": "1.1.28"
     },
     "king_crafting": {
       "version": "1.0.11"
@@ -107,7 +103,7 @@
       "version": "1.0.3"
     },
     "king_entitysync": {
-      "version": "2.0.6"
+      "version": "2.0.7"
     },
     "king_entitysync_test": {
       "version": "2.0.4"
@@ -142,7 +138,7 @@
       "version": "1.0.9"
     },
     "king_government": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_graffiti": {
       "version": "1.0.9",
@@ -222,16 +218,16 @@
       "version": "1.0.6"
     },
     "king_media_network": {
-      "version": "1.0.19",
+      "version": "1.0.20",
       "importance": "important",
       "notes": [
-        "Vereinheitlichte Design- und Slotrechte mit Rangnamen und delegierbarer Verwaltung.",
-        "Design laden und speichern sind von der ausdrücklichen Slotzuordnung getrennt; gemeinsame Vorschau-Caches und überarbeiteter Designer.",
-        "Beim Update vorhandene Media-Datenbank und storage behalten. Alte, nicht konvertierte Installationen benötigen eine Offline-Konvertierung; Konfigurationsdefaults für Rang 1 und Verwaltung -1 übernehmen."
+        "Kanaländerungen gehen als kleine Deltas ohne Bilddaten an die Clients; Bilder werden nur für Anzeigen in der Nähe einmalig über den Core-Transfer geladen. Behebt Verbindungsabbrüche beim Join durch große Kanal-Events.",
+        "Neue Ladekarte mit Logo, solange Inhalte geladen werden.",
+        "Server und Clients müssen dieselbe Version laden; beim Update storage/media behalten."
       ]
     },
     "king_media_upload": {
-      "version": "0.1.3"
+      "version": "0.1.4"
     },
     "king_money": {
       "version": "1.0.4"
@@ -269,7 +265,7 @@
       "version": "1.0.3"
     },
     "king_phone_charger": {
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
     "king_phone_charger_props": {
       "version": "1.0.1"
@@ -393,7 +389,7 @@
       "version": "1.0.4"
     },
     "king_vehicle_registration": {
-      "version": "1.0.10"
+      "version": "1.0.11"
     },
     "king_vehicle_road_damage": {
       "version": "1.0.4"
