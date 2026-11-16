@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T09:13:24Z",
+  "generatedAt": "2026-11-16T13:37:25Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -170,10 +170,7 @@
       "importance": "important"
     },
     "king_inventory": {
-      "version": "1.0.0",
-      "notes": [
-        "Erste Version des neuen Inventars als Ersatz für ls-inventoryhud. Für den Umstieg king_core 1.1.52 verwenden, den Inventar-Provider auf king_inventory stellen und die bestehenden Inventare mit invimport übernehmen."
-      ]
+      "version": "1.0.1"
     },
     "king_keys": {
       "version": "1.0.15"
