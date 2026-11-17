@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T20:28:55Z",
+  "generatedAt": "2026-11-17T10:07:54Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -21,7 +21,7 @@
       "importance": "important"
     },
     "king_admin": {
-      "version": "1.0.25"
+      "version": "1.0.26"
     },
     "king_advent": {
       "version": "1.0.2"
@@ -66,12 +66,7 @@
       "version": "1.1.14"
     },
     "king_core": {
-      "version": "1.1.54",
-      "importance": "important",
-      "notes": [
-        "Fahrzeuge ohne Transparenz werden wieder normal gezeichnet und verdecken Werbeflächen und andere Weltanzeigen dahinter.",
-        "Den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
-      ]
+      "version": "1.1.55"
     },
     "king_core_test": {
       "version": "1.1.28"
@@ -89,8 +84,7 @@
       "version": "1.0.5"
     },
     "king_documents": {
-      "version": "1.0.23",
-      "importance": "important"
+      "version": "1.0.24"
     },
     "king_easter": {
       "version": "1.0.3"
@@ -170,7 +164,7 @@
       "importance": "important"
     },
     "king_inventory": {
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "king_keys": {
       "version": "1.0.15"
@@ -380,7 +374,7 @@
       ]
     },
     "king_vehicle_manager": {
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
     "king_vehicle_mods": {
       "version": "1.0.4"
