@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T10:07:54Z",
+  "generatedAt": "2026-11-17T10:08:35Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -66,7 +66,12 @@
       "version": "1.1.14"
     },
     "king_core": {
-      "version": "1.1.55"
+      "version": "1.1.55",
+      "importance": "important",
+      "notes": [
+        "Neuer Fahrzeugkatalog mit Zusatzdaten und Klassenstandards; gemeinsam mit king_vehicle_manager 1.0.6 aktualisieren.",
+        "Den vollständigen FXServer neu starten; king_core nicht einzeln neu starten."
+      ]
     },
     "king_core_test": {
       "version": "1.1.28"
@@ -84,7 +89,11 @@
       "version": "1.0.5"
     },
     "king_documents": {
-      "version": "1.0.24"
+      "version": "1.0.24",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core 1.1.55."
+      ]
     },
     "king_easter": {
       "version": "1.0.3"
@@ -164,7 +173,11 @@
       "importance": "important"
     },
     "king_inventory": {
-      "version": "1.0.3"
+      "version": "1.0.3",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core 1.1.55."
+      ]
     },
     "king_keys": {
       "version": "1.0.15"
@@ -374,7 +387,11 @@
       ]
     },
     "king_vehicle_manager": {
-      "version": "1.0.6"
+      "version": "1.0.6",
+      "importance": "important",
+      "notes": [
+        "Benötigt king_core 1.1.55."
+      ]
     },
     "king_vehicle_mods": {
       "version": "1.0.4"
