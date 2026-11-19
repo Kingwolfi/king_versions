@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T20:21:38Z",
+  "generatedAt": "2026-11-19T07:30:38Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -21,7 +21,12 @@
       "importance": "important"
     },
     "king_admin": {
-      "version": "1.0.26"
+      "version": "1.0.27",
+      "importance": "important",
+      "notes": [
+        "Benötigt die aktualisierte king_immigration_office mit Einreise- und Starter-Adminexports.",
+        "Fortsetzen, Prüfen und erneute Starterausgabe verlangen das bestehende Starterrecht und eine Begründung."
+      ]
     },
     "king_advent": {
       "version": "1.0.2"
@@ -156,11 +161,11 @@
       "version": "1.0.11"
     },
     "king_immigration_office": {
-      "version": "1.0.12",
+      "version": "1.0.13",
       "importance": "important",
       "notes": [
-        "Sicherheitsfix: Einreiseauswahl und Startervergabe benötigen einen serverseitigen Einmalcode für den neu angelegten Charakter.",
-        "Für die Aktivierung die mitgelieferte vms_multichars-Serverintegration gemeinsam übernehmen; bestehende Charakterauswahl erteilt keine Freigabe."
+        "Charaktercreator, Einreise und king_admin gemeinsam aktualisieren; king_starter_items deaktivieren.",
+        "Offene Einreisen werden in Charakter-Metadaten fortgesetzt; unklare Ausgaben benötigen eine Adminprüfung."
       ]
     },
     "king_insurance": {
