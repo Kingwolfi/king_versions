@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T07:30:38Z",
+  "generatedAt": "2026-11-20T21:01:27Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -21,12 +21,7 @@
       "importance": "important"
     },
     "king_admin": {
-      "version": "1.0.27",
-      "importance": "important",
-      "notes": [
-        "Benötigt die aktualisierte king_immigration_office mit Einreise- und Starter-Adminexports.",
-        "Fortsetzen, Prüfen und erneute Starterausgabe verlangen das bestehende Starterrecht und eine Begründung."
-      ]
+      "version": "1.0.28"
     },
     "king_advent": {
       "version": "1.0.2"
@@ -71,7 +66,7 @@
       "version": "1.1.14"
     },
     "king_core": {
-      "version": "1.1.57"
+      "version": "1.1.58"
     },
     "king_core_test": {
       "version": "1.1.29"
@@ -161,23 +156,14 @@
       "version": "1.0.11"
     },
     "king_immigration_office": {
-      "version": "1.0.13",
-      "importance": "important",
-      "notes": [
-        "Charaktercreator, Einreise und king_admin gemeinsam aktualisieren; king_starter_items deaktivieren.",
-        "Offene Einreisen werden in Charakter-Metadaten fortgesetzt; unklare Ausgaben benötigen eine Adminprüfung."
-      ]
+      "version": "1.0.14"
     },
     "king_insurance": {
       "version": "1.0.8",
       "importance": "important"
     },
     "king_inventory": {
-      "version": "1.0.3",
-      "importance": "important",
-      "notes": [
-        "Benötigt king_core 1.1.55."
-      ]
+      "version": "1.0.4"
     },
     "king_keys": {
       "version": "1.0.15"
@@ -232,6 +218,12 @@
     },
     "king_mugshot": {
       "version": "1.0.5"
+    },
+    "king_multichar": {
+      "version": "1.0.0"
+    },
+    "king_multichar_stream": {
+      "version": "1.0.0"
     },
     "king_notebook": {
       "version": "1.0.2"
