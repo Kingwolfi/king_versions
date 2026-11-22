@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T19:59:28Z",
+  "generatedAt": "2026-11-22T17:09:05Z",
   "source": "local_fxmanifest",
   "message": {
     "enabled": true,
@@ -221,10 +221,10 @@
       "version": "1.0.5"
     },
     "king_multichar": {
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     "king_multichar_stream": {
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     "king_notebook": {
       "version": "1.0.2"
